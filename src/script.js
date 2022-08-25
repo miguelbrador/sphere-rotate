@@ -37,7 +37,7 @@ gradientTexture.magFilter = THREE.NearestFilter
 // model1.setDRACOLoader(model1)
 let mixer = null
   model1.load(
-     '/globe1.glb',
+     './globe1.glb',
      (gltf) =>
      {
         mesh1=gltf.scene
